@@ -1,0 +1,30 @@
+create database user_management;
+CREATE TABLE Product (
+	id int,
+    name varchar(255),
+    price varchar(255)
+);
+drop table Product;
+create table Product(
+   id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   name varchar(255),
+	price varchar(255)
+);
+
+select * from Product;
+
+CREATE TABLE users (
+	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    fname varchar(255),
+    lname varchar(255),
+    email varchar(255)
+);
+select * from users;
+drop table users;
+
+CREATE TABLE employees (
+	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    first_name varchar(255),
+    last_name varchar(255),
+    email varchar(255)
+);
